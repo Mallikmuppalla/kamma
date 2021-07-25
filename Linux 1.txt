@@ -1,0 +1,199 @@
+
+
+1 To see the use who is currently logged in
+  whoami
+
+2 To see all the users logged into the linux server
+  who
+
+3 To create directories
+  mkdir dir1
+
+4 To create multiple directories one within another
+  mkdir -p d1/d2/d3/d4
+
+5 To remove an empty directory
+  rmdir dir_name
+
+6 To remove a directory which has files and sub directories
+  rm -r dir_name
+
+7 To move from one dir to another
+  cd dirname
+  Note   . represents current directory
+        .. represents parent directory
+        ~ represents home direcotry of current user
+        Eg: cd ~   will take control to home dir of current user
+
+8 To create files
+  touch file1
+
+9 To create multiple files
+  touch file1 file2 file3
+  Note: touch creates emptyr files.It can also be used for
+  updating the time stamp of files
+
+10 To create files that can store some data
+  cat > filename
+  Enter some data in the file
+  To come out of cat command (ctrl+d) This represents EOF
+
+  a) cat create a new file if the file is already not present
+  b) it will overwrite the content of the exisiting file if
+    file is already present
+
+11 To see the content of a file
+  cat filename
+
+12 To append data to an exisiting file
+   cat >> filename
+   enter some data
+   ctrl+d
+
+13 To remove a file
+   rm filename
+
+
+14 To find home dir of current user
+   echo $HOME
+
+
+
+
+
+
+
+
+
+
+
+
+
+Configuring maven
+======================
+1 Download and install JDK 1.8
+2 Open c:-->program files--->open java-->open jdk folder
+3 Copy its path
+4 Right click on "This PC" -->click on Properties
+5 click on Advanced system settings-->Click on Advanced
+6 Click on environment variables
+7 Go to System variables--->click on new
+8 enter varaible name as JAVA_HOME
+9 Paste the path of JDK
+10 Open https://www-eu.apache.org/dist/maven/maven-                                         3/3.0.5/binaries/
+11 Download maven bin.zip version
+12 Open the apache maven fodler-->copy its path
+13 Click on Environment variables
+13 Click on New-->create a varaible M2_HOME
+14 Paste the path of apache maven
+15 Highlight the Path varaible-->click on New
+16 Paste the path of jdk\bin
+17 Click on New-->paste the path of apache maven\bin
+18 OK-->OK-->OK
+
+To check if maven is installed or not
+Open cmd prompt
+mvn --version
+
+
+172.31.32.179
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
